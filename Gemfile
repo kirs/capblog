@@ -32,6 +32,12 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem 'puma'
+
+gem 'capistrano', github: 'capistrano'
+gem 'capistrano-rails', github: 'capistrano/rails'
+gem "sshkit", "~> 1.2.0"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
